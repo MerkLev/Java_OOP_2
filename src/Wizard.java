@@ -8,5 +8,6 @@ public class Wizard extends Ability{
         SpellDamage = 40;
         Level = 5;
         Vigor = 30;
+        Type = "Волшебник";
     }
 }

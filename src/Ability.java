@@ -1,4 +1,5 @@
-public class Ability {
+interface Stepp{ abstract void Step(); public String getInfo();}
+public class Ability implements Stepp {
 
     String Name;
     int Health;
@@ -10,16 +11,14 @@ public class Ability {
     double Level;
     String Type;
 
-    interface Stepp{ public void step(); public String getInfo();}
-    public class Imp implements Stepp {
-        public void step() {
+
+        public void Step() {
             System.out.format(" %s сделал шаг", Name);
         }
 
         public String getInfo() {
-            return(" Я" + Type);
+            return(" Я" + " " + Type);
         }
-    }
     public static void RangedAr(String Name, int Ranged, double Level) {
         System.out.format("%s наносит %s ед. урона в стрелковой атаке", Name, Ranged);
         Level += 0.1;

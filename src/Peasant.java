@@ -8,5 +8,6 @@ public class Peasant extends Ability{
         SpellDamage = 0;
         Level = 1;
         Vigor = 0;
+        Type = "Крестьянин";
     }
 }

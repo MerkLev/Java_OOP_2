@@ -8,6 +8,7 @@ public class Sniper extends Ability {
         SpellDamage = 0;
         Level = 5;
         Vigor = 0;
+        Type = "Снайпер";
     }
 }
 

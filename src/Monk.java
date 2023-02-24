@@ -8,5 +8,6 @@ public class Monk extends Ability{
         SpellDamage = 25;
         Level = 5;
         Vigor = 20;
+        Type = "Монах";
     }
 }

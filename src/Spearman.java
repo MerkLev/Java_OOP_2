@@ -8,5 +8,6 @@ public class Spearman extends Ability{
         SpellDamage = 0;
         Level = 5;
         Vigor = 0;
+        Type = "Копейщик";
     }
 }
