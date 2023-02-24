@@ -1,9 +1,9 @@
 public class Spearman extends Ability{
-    Spearman(){
+    Spearman(String Imya){
         Health = 40;
         Ranged = 0;
         Melee = 30;
-        Name = "Chicken Strips";
+        Name = Imya;
         Speed = 15;
         SpellDamage = 0;
         Level = 5;

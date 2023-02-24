@@ -1,9 +1,9 @@
 public class Sniper extends Ability {
-    Sniper() {
+    Sniper(String Imya) {
         Health = 25;
         Ranged = 40;
         Melee = 15;
-        Name = "Widowmaker";
+        Name = Imya;
         Speed = 30;
         SpellDamage = 0;
         Level = 5;

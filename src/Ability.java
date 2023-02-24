@@ -8,7 +8,18 @@ public class Ability {
     double Vigor;
     int SpellDamage;
     double Level;
+    String Type;
 
+    interface Stepp{ public void step(); public String getInfo();}
+    public class Imp implements Stepp {
+        public void step() {
+            System.out.format(" %s сделал шаг", Name);
+        }
+
+        public String getInfo() {
+            return(" Я" + Type);
+        }
+    }
     public static void RangedAr(String Name, int Ranged, double Level) {
         System.out.format("%s наносит %s ед. урона в стрелковой атаке", Name, Ranged);
         Level += 0.1;

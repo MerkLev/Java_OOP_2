@@ -1,9 +1,9 @@
 public class Crossbowman extends Ability {
-    Crossbowman(){
+    Crossbowman(String Imya){
         Health = 25;
         Ranged = 30;
         Melee = 15;
-        Name = "Joan of Arc";
+        Name = Imya;
         Speed = 20;
         SpellDamage = 0;
         Level = 5;

@@ -1,9 +1,9 @@
 public class Monk extends Ability{
-    Monk(){
+    Monk(String Imya){
         Health = 30;
         Ranged = 15;
         Melee = 20;
-        Name = "Gandi";
+        Name = Imya;
         Speed = 30;
         SpellDamage = 25;
         Level = 5;

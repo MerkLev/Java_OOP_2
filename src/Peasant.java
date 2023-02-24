@@ -1,9 +1,9 @@
 public class Peasant extends Ability{
-    Peasant() {
+    Peasant(String Imya) {
         Health = 5;
         Ranged = 0;
         Melee = 5;
-        Name = "Popcorn";
+        Name = Imya;
         Speed = 10;
         SpellDamage = 0;
         Level = 1;
