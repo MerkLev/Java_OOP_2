@@ -12,8 +12,8 @@ public class Main {
         Ability C = new Crossbowman("Karasik");
 
 
-        Ability L [] = {S,M,W,P,R,Sp,C};
-        for (Ability D: L){
+        List<Ability> A = Arrays.asList(S,M,W,P,R,Sp,C);
+        for (Ability D: A){
             System.out.println(D.getInfo());
         }
     }
